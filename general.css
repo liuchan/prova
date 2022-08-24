@@ -52,20 +52,20 @@
 }
 
 /*error management*/
-fieldset.error ~ .ltm-radio-field-helper-line, .matter-checkbox.error ~ .ltm-checkbox-field-helper-line{
+fieldset.error ~ .ltm-radio-field-helper-line, .matter-checkbox.error ~ .ltm-checkbox-field-helper-line, .matter-textfield-outlined.error ~ .ltm-text-field-helper-line{
   display: flex;
 }
-fieldset.error ~ .ltm-radio-field-helper-line:before, .matter-checkbox.error ~ .ltm-checkbox-field-helper-line:before{
+fieldset.error ~ .ltm-radio-field-helper-line:before, .matter-checkbox.error ~ .ltm-checkbox-field-helper-line:before, .matter-textfield-outlined.error ~ .ltm-text-field-helper-line:before{
   display: block;
 }
-.ltm-radio-field-helper-line, .ltm-checkbox-field-helper-line{
+.ltm-radio-field-helper-line, .ltm-checkbox-field-helper-line, .ltm-text-field-helper-line{
   font-family: var(--matter-font-family,"Roboto","Segoe UI",BlinkMacSystemFont,system-ui,-apple-system);
   font-size: 12px;
   color: var(--default-text-color-error);
   padding-top:7px;
   display:none;
 }
-.ltm-radio-field-helper-line:before, .ltm-checkbox-field-helper-line:before{
+.ltm-radio-field-helper-line:before, .ltm-checkbox-field-helper-line:before, .ltm-text-field-helper-line:before{
   content:"!";
       border: 1px solid var(--default-text-color-error);
     border-radius: 50%;
