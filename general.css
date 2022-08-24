@@ -52,10 +52,10 @@
 }
 
 /*error management*/
-fieldset.error ~ .ltm-radio-field-helper-line{
+fieldset.error ~ .ltm-radio-field-helper-line, .matter-checkbox.error ~ .ltm-checkbox-field-helper-line{
   display: flex;
 }
-fieldset.error ~ .ltm-radio-field-helper-line:before{
+fieldset.error ~ .ltm-radio-field-helper-line:before, .matter-checkbox.error ~ .ltm-checkbox-field-helper-line:before{
   display: block;
 }
 .ltm-radio-field-helper-line, .ltm-checkbox-field-helper-line{
