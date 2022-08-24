@@ -1,7 +1,15 @@
 * {
+    /*still not present on Adobe Xd list, but used on Adobe Xd*/
+    --default-text-color-80: #333333;
+    --default-text-color-error: #FF3B30;
+
+    /*From Adobe Xd*/
     --primary-color-default-500: #195080;
     --primary-color-default-500-rgb: 25, 80, 128;
-    --default-text-color-80: #333333;
+    --primary-color-light-200: #517797;
+    --primary-color-extralight-050: #B2C4D4;
+    --primary-color-dark-700: #103555;
+    --primary-color-extradark-900: #081A2A;
     
     --grey-level01-90: #212121;
     --grey-level02-50: #808080;
@@ -21,4 +29,5 @@
     --default-font-size2: 14px;
     --default-font-size3: 12px;
     --default-background-color: #ffffff;
+
 }
