@@ -1,0 +1,24 @@
+* {
+    --primary-color-default-500: #195080;
+    --primary-color-default-500-rgb: 25, 80, 128;
+    --default-text-color-80: #333333;
+    
+    --grey-level01-90: #212121;
+    --grey-level02-50: #808080;
+    --grey-level03-40: #999999;
+    --grey-level04-30: #B3B3B3;
+    --grey-level05-20: #CCCCCC;
+    --grey-level06-10: #E6E6E6;
+    --grey-level07-6: #F0F0F0;
+    --grey-level08-4: #F5F5F5;
+    --grey-level09-2: #FAFAFA;
+    --grey-level10-0: #FFFFFF;
+    
+    --extra-red-500: #AB0504;
+    --extra-overlay-100: #000000;
+    
+    --default-font-size1: 16px;
+    --default-font-size2: 14px;
+    --default-font-size3: 12px;
+    --default-background-color: #ffffff;
+}
