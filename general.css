@@ -1,4 +1,4 @@
-* {
+root {
     /* General use */
     --primary-color: var(--primary-color-default-500);
     --primary-color-rgb: var(--primary-color-default-500-rgb);
